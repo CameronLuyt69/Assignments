@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Design End-of-module Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="C:\Users\User\Documents\Assignments\WebDesignEndOfModuleProject\WebDesignCSS.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--NAVIGATION BAR-->
+        <div class="nav marginB">
+            <a href="#" class="navitem">Home</a>
+            <a href="#" class="navitem">News Feed</a>
+            <a href="file:///C:/Users/User/Documents/TASK/TASK.html" class="navitem active">Users</a>
+            <a href="#" class="navitem">Admin</a>
+        </div>>
+
+        <!--CARDS-->
+        <div class="containerout">
+            <div class="row">
+                <button type="button" class="btn col-3" data-toggle="modal" data-target="#myModal1">
+                <div class="card">
+                <img src="https://portotheme.com/html/porto/7.5.0/img/avatars/avatar.jpg" alt="Avatar" style="width:100%">
+                <div class="containerin">
+                <h4><b>John Smith</b></h4>
+                <p><b>Email:</b>johnsmith@gmail.com</p>
+                <p><b>Cell:</b>0810184526</p>
+                <p><b>Landline:</b>0211652589</p>
+                </div>
+                </div>
+                </button>
+
+                <button type="button" class="btn col-3" data-toggle="modal" data-target="#myModal2">
+                <div class="card">
+                <img src="https://lh3.googleusercontent.com/proxy/5HSzmreL4x3UzZafYYYmkuZdw0JqEYoNBSXJ7fJHSGJGwlYVTI3n6oZ2wkknm2UCTe1MDN4ILJOInv_8k3XzYclajJKltH9QozP6BSHWGKeJcx5K5U6ip-7ob0pU9oqVhGQGhwKxgBPrl7yhcxBcnOMt2h4" alt="Avatar" style="width:100%">
+                <div class="containerin">
+                <h4><b>Juanita Carlos</b></h4>
+                <p><b>Email:</b>juanitac56@gmail.com</p>
+                <p><b>Cell:</b>0615283956</p>
+                <p><b>Landline:</b>0214659283</p>
+                </div>
+                </div>
+                </button>
+
+                <button type="button" class="btn col-3" data-toggle="modal" data-target="#myModal3">
+                <div class="card">
+                <img src="https://pbs.twimg.com/profile_images/875498876261859329/7iV5CwVY_400x400.jpg" alt="Avatar" style="width:100%">
+                <div class="containerin">
+                <h4><b>Mike Jones</b></h4>
+                <p><b>Email:</b>mikejones@gmail.com</p>
+                <p><b>Cell:</b>0814659283</p>
+                <p><b>Landline:</b>0211564829</p>
+                </div>
+                </div>
+                </button>
+
+                <button type="button" class="btn col-3" data-toggle="modal" data-target="#myModal4">
+                <div class="card">
+                <img src="https://www.venmond.com/demo/vendroid/img/avatar/big.jpg" alt="Avatar" style="width:100%">
+                <div class="containerin">
+                <h4><b>Sarah Jane</b></h4>
+                <p><b>Email:</b>sarahjane@gmail.com</p>
+                <p><b>Cell:</b>0725896526</p>
+                <p><b>Landline:</b>0219534589</p>
+                </div>
+                </div>
+                </button>
+            </div>
+            <!--DELETE BUTTONS-->
+            <div class="row">
+                <div class="col-3"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete User</button></div>
+                <div class="col-3"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete User</button></div>
+                <div class="col-3"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete User</button></div>
+                <div class="col-3"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete User</button></div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <button type="button" class="btn btn-success col-3 marginA" data-toggle="modal" data-target="#addnew">Add New User</button>
+        </div>
+
+
+        <!--USER DETAILS MODALS-->
+        <div id="myModal1" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                <h4 class="modal-title">User Details</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <pre>
+        <b>Adress:</b>
+        9 Park Way
+        Westridge
+        Mitchells Plain 
+        7785
+        <b>Next of kin:</b>
+        Jayden Smith
+        <b>Next of kin relationship:</b>
+        Boyfriend
+        <b>Next of kin cellphone number:</b>
+        0635984628
+        <b>Next of kin email:</b>
+        jaydensmith@gmail.com
+                    </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="myModal2" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                <h4 class="modal-title">User Details</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <pre>
+        <b>Adress:</b>
+        6 Neville Close
+        Woodlands
+        Mitchells Plain 
+        7785
+        <b>Next of kin:</b>
+        Juan Ricardo
+        <b>Next of kin relationship:</b>
+        Boyfriend
+        <b>Next of kin cellphone number:</b>
+        0628594625
+        <b>Next of kin email:</b>
+        juanricardo@gmail.com
+                    </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="myModal3" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+
+                <div class="modal-header">
+                <h4 class="modal-title">User Details</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <pre>
+        <b>Adress:</b>
+        4 Tobago Way
+        Portlands
+        Mitchells Plain 
+        7785
+        <b>Next of kin:</b>
+        Monique Luyt
+        <b>Next of kin relationship:</b>
+        Wife
+        <b>Next of kin cellphone number:</b>
+        0824956859
+        <b>Next of kin email:</b>
+        moniqueluyt@gmail.com
+                    </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div id="myModal4" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                
+                <div class="modal-header">
+                <h4 class="modal-title">User Details</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <div class="modal-body">
+                    <pre>
+        <b>Adress:</b>
+        5 Malta Way
+        Rocklands
+        Mitchells Plain 
+        7785
+        <b>Next of kin:</b>
+        Devon James
+        <b>Next of kin relationship:</b>
+        Husband
+        <b>Next of kin cellphone number:</b>
+        0895862354
+        <b>Next of kin email:</b>
+        devonjames@gmail.com
+                    </pre>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        <!--DELETE MODAL-->
+          <div class="modal" id="delete">
+            <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                <h4 class="modal-title test-danger">Delete Confirmation</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <div class="modal-body">
+                    Are you sure you want to delete this?
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-dismiss="modal">No, Cancel</button>
+                    <button type="submit" class="btn btn-danger" data-dismiss="myModal4">Yes, Delete</button>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+        <!--NEW USER FORM MODAL-->
+        <div class="modal" id="addnew">
+            <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                <h4 class="modal-title test-danger">Add New User</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <div class="modal-body">
+                    <form action="/action_page.php" class="space">
+                        <div class="form-group">
+                            <label for="fname">First Name:</label>
+                            <input type="fname" class="form-control" id="fname" placeholder="Enter Name" name="fname">
+                            
+                            <label for="lname">Last Name:</label>
+                            <input type="lname" class="form-control" id="lname" placeholder="Enter Surname" name="lname">
+                
+                            <label for="Email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+
+                            <label for="cellphone number">Cellphone Number:</label>
+                            <input type="number" class="form-control" id="cell" placeholder="Enter Cellphone Number" name="cell">
+
+                            <label for="telephone number">Telephone Number:</label>
+                            <input type="number" class="form-control" id="tele" placeholder="Enter Telephone Number" name="tele">
+
+                            <label for="Adress">Home Adress:</label>
+                            <input type="adress" class="form-control" id="adress" placeholder="Enter Home Adress" name="adress">
+
+                            <label for="NOKname">Next of kin:</label>
+                            <input type="name" class="form-control" id="NOKname" placeholder="Enter next of kin name" name="NOKname">
+
+                            <label for="nokr">Next of kin relationship:</label>
+                            <input type="nokr" class="form-control" id="nokr" placeholder="Enter of kin relationship" name="nokr">
+
+                            <label for="next of kin cell">Next of kin cellphone number:</label>
+                            <input type="number" class="form-control" id="nokc" placeholder="Enter next of kin cellphone number" name="nokc">
+
+                            <label for="next of kin tele">Next of kin telephone number:</label>
+                            <input type="number" class="form-control" id="nokt" placeholder="Enter next of kin telephone number" name="nokt">
+                        </div>
+                
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </body>
+</html>
