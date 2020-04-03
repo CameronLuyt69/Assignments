@@ -9,86 +9,112 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     </head>
+
     <body>
         <!--NAVIGATION BAR-->
-        <div class="nav marginB">
-            <a href="#" class="navitem">Home</a>
-            <a href="#" class="navitem">News Feed</a>
-            <a href="file:///C:/Users/User/Documents/TASK/TASK.html" class="navitem active">Users</a>
-            <a href="#" class="navitem">Admin</a>
-        </div>>
-
-        <!--CARDS-->
-        <div class="containerout">
-            <div class="row">
-                <button type="button" class="btn col-3" data-toggle="modal" data-target="#myModal1">
-                <div class="card">
-                <img src="https://portotheme.com/html/porto/7.5.0/img/avatars/avatar.jpg" alt="Avatar" style="width:100%">
-                <div class="containerin">
-                <h4><b>John Smith</b></h4>
-                <p><b>Email:</b>johnsmith@gmail.com</p>
-                <p><b>Cell:</b>0810184526</p>
-                <p><b>Landline:</b>0211652589</p>
-                </div>
-                </div>
-                </button>
-
-                <button type="button" class="btn col-3" data-toggle="modal" data-target="#myModal2">
-                <div class="card">
-                <img src="https://lh3.googleusercontent.com/proxy/5HSzmreL4x3UzZafYYYmkuZdw0JqEYoNBSXJ7fJHSGJGwlYVTI3n6oZ2wkknm2UCTe1MDN4ILJOInv_8k3XzYclajJKltH9QozP6BSHWGKeJcx5K5U6ip-7ob0pU9oqVhGQGhwKxgBPrl7yhcxBcnOMt2h4" alt="Avatar" style="width:100%">
-                <div class="containerin">
-                <h4><b>Juanita Carlos</b></h4>
-                <p><b>Email:</b>juanitac56@gmail.com</p>
-                <p><b>Cell:</b>0615283956</p>
-                <p><b>Landline:</b>0214659283</p>
-                </div>
-                </div>
-                </button>
-
-                <button type="button" class="btn col-3" data-toggle="modal" data-target="#myModal3">
-                <div class="card">
-                <img src="https://pbs.twimg.com/profile_images/875498876261859329/7iV5CwVY_400x400.jpg" alt="Avatar" style="width:100%">
-                <div class="containerin">
-                <h4><b>Mike Jones</b></h4>
-                <p><b>Email:</b>mikejones@gmail.com</p>
-                <p><b>Cell:</b>0814659283</p>
-                <p><b>Landline:</b>0211564829</p>
-                </div>
-                </div>
-                </button>
-
-                <button type="button" class="btn col-3" data-toggle="modal" data-target="#myModal4">
-                <div class="card">
-                <img src="https://www.venmond.com/demo/vendroid/img/avatar/big.jpg" alt="Avatar" style="width:100%">
-                <div class="containerin">
-                <h4><b>Sarah Jane</b></h4>
-                <p><b>Email:</b>sarahjane@gmail.com</p>
-                <p><b>Cell:</b>0725896526</p>
-                <p><b>Landline:</b>0219534589</p>
-                </div>
-                </div>
-                </button>
-            </div>
-            <!--DELETE BUTTONS-->
-            <div class="row">
-                <div class="col-3"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete User</button></div>
-                <div class="col-3"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete User</button></div>
-                <div class="col-3"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete User</button></div>
-                <div class="col-3"><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#delete">Delete User</button></div>
-            </div>
+        <div>
+        <nav class="navbar navbar-expand-sm navbar-dark text-center">
+          <!-- BRAND-->
+          <a class="navbar-brand" href="#">User Profiles</a>
+          <!--LINKS-->
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">News Feed</a></li>
+            <li class="nav-item"><a class="nav-link active" href="WebDesignEnd-of-moduleProject.html">Users</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Admin</a></li>
+          </ul>
+        </nav>
         </div>
         
-        <div class="row">
-            <button type="button" class="btn btn-success col-3 marginA" data-toggle="modal" data-target="#addnew">Add New User</button>
-        </div>
+        <!--CARDS-->
+        <div class="containerout">
+            <div class="card-deck">
+
+                <!--JOHN'S CARD-->
+                <div class="card">
+                <img src="https://images.pexels.com/photos/428364/pexels-photo-428364.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                  <div class="card-header cardheader">
+                    <h4><b>John Smith</b></h4>
+                  </div>
+                  <div class="card-body">
+                    <p><b>Email:</b>johnsmith@gmail.com</p>
+                    <p><b>Cell:</b>0810184526</p>
+                    <p><b>Landline:</b>0211652589</p>
+                  </div>
+                  <div class="card-body">
+                    <button type="button" class="btn button btn-primary" data-toggle="modal" data-target="#myModal1">View More</button>
+                    <button type="button" class="btn button btn-danger" data-toggle="modal" data-target="#delete">Delete User</button>
+                  </div>
+                </div>
+                
+                <!--JUANITA'S CARD-->
+                <div class="card">
+                <img src="https://images.pexels.com/photos/3785424/pexels-photo-3785424.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                  <div class="card-header cardheader">
+                    <h4><b>Juanita Carlos</b></h4>
+                  </div>
+                  <div class="card-body">
+                    <p><b>Email:</b>juanitac56@gmail.com</p>
+                    <p><b>Cell:</b>0615283956</p>
+                    <p><b>Landline:</b>0214659283</p>
+                  </div>
+                  <div class="card-body">
+                    <button type="button" class="btn button btn-primary" data-toggle="modal" data-target="#myModal2">View More</button>
+                    <button type="button" class="btn button btn-danger" data-toggle="modal" data-target="#delete">Delete User</button>
+                  </div>
+                </div>
+                
+                <!--MIKE'S CARD-->
+                <div class="card">
+                <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                  <div class="card-header cardheader">
+                    <h4><b>Mike Jones</b></h4>
+                  </div>
+                  <div class="card-body">
+                    <p><b>Email:</b>mikejones@gmail.com</p>
+                    <p><b>Cell:</b>0814659283</p>
+                    <p><b>Landline:</b>0211564829</p>
+                  </div>
+                  <div class="card-body">
+                    <button type="button" class="btn button btn-primary" data-toggle="modal" data-target="#myModal3">View More</button>
+                    <button type="button" class="btn button btn-danger" data-toggle="modal" data-target="#delete">Delete User</button>
+                  </div>
+                </div>
+                
+                <!--SARAH'S CARD-->
+                <div class="card">
+                <img src="https://images.pexels.com/photos/756453/pexels-photo-756453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                  <div class="card-header cardheader">
+                    <h4><b>Sarah Jane</b></h4>
+                  </div>
+                  <div class="card-body">
+                    <p><b>Email:</b>sarahjane@gmail.com</p>
+                    <p><b>Cell:</b>0725896526</p>
+                    <p><b>Landline:</b>0219534589</p>
+                  </div>
+                  <div class="card-body">
+                    <button type="button" class="btn button btn-primary" data-toggle="modal" data-target="#myModal4">View More</button>
+                    <button type="button" class="btn button btn-danger" data-toggle="modal" data-target="#delete">Delete User</button>
+                  </div>
+                </div>
+                
+            </div><!--CARD DECK CLOSING-->
+        </div><!--CONTAINEROUT CLOSING-->
+        
+          <!--ADD NEW USER BUTTON-->
+          <div class="text-center">
+            <button type="button" class="btn btn-success button btn-lg" data-toggle="modal" data-target="#addnew">Add New User</button>
+          </div>
 
 
         <!--USER DETAILS MODALS-->
+
+        <!--JOHN'S MODAL-->
         <div id="myModal1" class="modal fade" role="dialog">
             <div class="modal-dialog">
               <div class="modal-content">
 
-                <div class="modal-header">
+                <div class="modal-header bg-primary">
                 <h4 class="modal-title">User Details</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -114,12 +140,12 @@
             </div>
           </div>
 
-
+          <!--JUANITA'S MODAL-->
           <div id="myModal2" class="modal fade" role="dialog">
             <div class="modal-dialog">
               <div class="modal-content">
 
-                <div class="modal-header">
+                <div class="modal-header bg-primary">
                 <h4 class="modal-title">User Details</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -145,12 +171,12 @@
             </div>
           </div>
 
-
+          <!--MIKE'S MODAL-->
           <div id="myModal3" class="modal fade" role="dialog">
             <div class="modal-dialog">
               <div class="modal-content">
 
-                <div class="modal-header">
+                <div class="modal-header bg-primary">
                 <h4 class="modal-title">User Details</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -176,12 +202,12 @@
             </div>
           </div>
 
-
+          <!--SARAHS MODAL-->
           <div id="myModal4" class="modal fade" role="dialog">
             <div class="modal-dialog">
               <div class="modal-content">
                 
-                <div class="modal-header">
+                <div class="modal-header bg-primary">
                 <h4 class="modal-title">User Details</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -213,7 +239,7 @@
             <div class="modal-dialog">
             <div class="modal-content">
 
-                <div class="modal-header">
+                <div class="modal-header bg-danger">
                 <h4 class="modal-title test-danger">Delete Confirmation</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -236,7 +262,7 @@
             <div class="modal-dialog">
             <div class="modal-content">
 
-                <div class="modal-header">
+                <div class="modal-header bg-success">
                 <h4 class="modal-title test-danger">Add New User</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
@@ -254,10 +280,10 @@
                             <input type="email" class="form-control" id="email" placeholder="Enter Email" name="email">
 
                             <label for="cellphone number">Cellphone Number:</label>
-                            <input type="number" class="form-control" id="cell" placeholder="Enter Cellphone Number" name="cell">
+                            <input type="numb" class="form-control" id="cell" placeholder="Enter Cellphone Number" name="cell">
 
                             <label for="telephone number">Telephone Number:</label>
-                            <input type="number" class="form-control" id="tele" placeholder="Enter Telephone Number" name="tele">
+                            <input type="numb" class="form-control" id="tel" placeholder="Enter Telephone Number" name="tel">
 
                             <label for="Adress">Home Adress:</label>
                             <input type="adress" class="form-control" id="adress" placeholder="Enter Home Adress" name="adress">
@@ -269,10 +295,10 @@
                             <input type="nokr" class="form-control" id="nokr" placeholder="Enter of kin relationship" name="nokr">
 
                             <label for="next of kin cell">Next of kin cellphone number:</label>
-                            <input type="number" class="form-control" id="nokc" placeholder="Enter next of kin cellphone number" name="nokc">
+                            <input type="numb" class="form-control" id="nokc" placeholder="Enter next of kin cellphone number" name="nokc">
 
                             <label for="next of kin tele">Next of kin telephone number:</label>
-                            <input type="number" class="form-control" id="nokt" placeholder="Enter next of kin telephone number" name="nokt">
+                            <input type="numb" class="form-control" id="nokt" placeholder="Enter next of kin telephone number" name="nokt">
                         </div>
                 
                         <button type="submit" class="btn btn-primary">Submit</button>
