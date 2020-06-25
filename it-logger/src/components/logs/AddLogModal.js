@@ -33,7 +33,7 @@ const AddLogModal = ({ addLog }) => {
   };
 
   return (
-    <div id='add-log-modal' className='modal' style={modalStyle}>
+    <div id='add-log-modal' className='modal round-border2' style={modalStyle}>
       <div className='modal-content'>
         <h4>Enter System Log</h4>
         <div className='row'>

@@ -26,7 +26,7 @@ const AddTechModal = ({ addTech }) => {
   };
 
   return (
-    <div id='add-tech-modal' className='modal'>
+    <div id='add-tech-modal' className='modal round-border2'>
       <div className='modal-content'>
         <h4>New Technician</h4>
         <div className='row'>
