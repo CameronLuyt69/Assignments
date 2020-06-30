@@ -10,7 +10,7 @@ const AddBtn = () => {
         <i className='large material-icons'>add</i>
       </a>
       <ul>
-        <li>
+        <li className>
           <a
             href='#tech-list-modal'
             className='btn-floating black modal-trigger'
